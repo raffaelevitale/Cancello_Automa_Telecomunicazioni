@@ -1,0 +1,1 @@
+# Cancello_Automa_Telecomunicazioni
