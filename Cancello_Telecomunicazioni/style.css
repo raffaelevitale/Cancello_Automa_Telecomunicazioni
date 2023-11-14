@@ -1,0 +1,33 @@
+#gate-container {
+    position: relative;
+    overflow: hidden;
+    height: 100px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+#gate-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3498db;
+    transition: transform 5s ease-in-out;
+    /* Cambiato 'left' a 'transform' */
+}
+
+.btn-group {
+    display: flex;
+}
+
+.btn {
+    flex: 1;
+}
+
+#statusText,
+#countdownText {
+    font-weight: bold;
+}
+
+/* Rimuovere la classe 'gate' */
